@@ -1,4 +1,4 @@
-FROM solr:8.1
+FROM solr:8.11
 USER solr:solr
 WORKDIR /var/solr/data
 COPY solr.xml solr.xml
