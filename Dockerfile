@@ -1,4 +1,5 @@
 FROM solr:8.11
+ENV TZ=Europe/Stockholm
 USER solr:solr
 WORKDIR /var/solr/data
 COPY solr.xml solr.xml
